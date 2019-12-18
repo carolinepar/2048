@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>2048</title>
+
+        <link rel="stylesheet" href="style.css"/>
+        
+    </head>
+
+    <body>
+        <div id="root">
+
+
+
+        </div><!--end root-->
+
+        <div id="content">
+
+            <br>
+            <h1 class="text">2048</h1>
+            <p class="text">Use the arrow keys to combine tiles to get to 2048.</p>
+            <div id="score"></div><!--end score-->
+
+            <div><p class="text" id="alert">&nbsp</p></div>
+
+            <div id="board">
+    
+                <table id="table">
+                    <tr>
+                        <td class="tile text tileText"></td>
+                        <td class="tile text tileText"></td>
+                        <td class="tile text tileText"></td>
+                        <td class="tile text tileText"></td>
+                    </tr>
+                    <tr>
+                        <td class="tile text tileText"></td>
+                        <td class="tile text tileText"></td>
+                        <td class="tile text tileText"></td>
+                        <td class="tile text tileText"></td>
+                    </tr>
+                    <tr>
+                        <td class="tile text tileText"></td>
+                        <td class="tile text tileText"></td>
+                        <td class="tile text tileText"></td>
+                        <td class="tile text tileText"></td>
+                    </tr>
+                    <tr>
+                        <td class="tile text tileText"></td>
+                        <td class="tile text tileText"></td>
+                        <td class="tile text tileText"></td>
+                        <td class="tile text tileText"></td>
+                    </tr>
+
+                </table>
+    
+    
+            </div>
+           
+            <!--end board-->
+      
+            <br><br>
+
+
+            <div id="center">
+                <button id="reset" type="submit">Reset</button>
+            </div>
+            <br><br><br>
+            
+        </div>
+         
+        <!--end content-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!--<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>-->
+
+        <script src="controllerView.js" type="module"></script>
+
+         <!--<script src="./engine/game"></script>-->
+    </body>
+</html>

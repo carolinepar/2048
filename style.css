@@ -1,0 +1,25 @@
+.tile{
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+#center {
+    text-align: center;
+}
+
+#table{
+    margin: auto;
+    border-spacing: 7px;
+    background-color: darkgray;
+    padding:10px;
+}
+
+.text{
+    text-align: center;
+}
+
+.tileText{
+    font-size: 30px;
+}
